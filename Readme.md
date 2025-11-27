@@ -34,4 +34,4 @@ Para executar o projeto, é necessário configurar o banco de dados em MySQL, o 
 # =================
 ## Professor
 # =================
-O arquivo para os forms para a matéria de ADM é o "MainForms.java", o arquivo "Main.java" executa no terminal.
+O arquivo para os forms para a matéria de APS é o "MainForms.java", o arquivo "Main.java" executa no terminal.
