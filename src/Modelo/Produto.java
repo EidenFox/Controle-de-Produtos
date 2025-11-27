@@ -1,0 +1,70 @@
+package Modelo;
+
+public class Produto {
+    private int ID;
+    private String nome;
+    private double preco;
+    private int quantidade;
+    private boolean estado;
+    private Categoria categoria;
+
+    public Produto (){
+
+    }
+
+    public Produto (String nome, double preco, int quantidade, Categoria categoria){
+        this.setNome(nome);
+        this.setQuantidade(quantidade);
+        this.setPreco(preco);
+        this.setCategoria(categoria);
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public double getPreco() {
+        return preco;
+    }
+
+    public void setPreco(double preco) {
+        this.preco = preco;
+    }
+
+    public int getQuantidade() {
+        return quantidade;
+    }
+
+    public void setQuantidade(int quantidade) {
+        this.quantidade = quantidade;
+    }
+
+    public int getID() {
+        return ID;
+    }
+
+    public void setID(int ID) {
+        this.ID = ID;
+    }
+
+    public boolean isEstado() {
+        return estado;
+    }
+
+    public void setEstado(boolean estado) {
+        this.estado = estado;
+    }
+
+
+    public Categoria getCategoria() {
+        return categoria;
+    }
+
+    public void setCategoria(Categoria categoria) {
+        this.categoria = categoria;
+    }
+}
