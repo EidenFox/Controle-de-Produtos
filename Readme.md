@@ -30,8 +30,9 @@ O sistema permite o gerenciamento completo de produtos e suas categorias:
 Para executar o projeto, é necessário configurar o banco de dados em MySQL, o arquivo .db está incluso no repositório.
 
 
+## Como Executar
+### Via terminal
+Existe um sistema CRUD simples que roda via terminal do IntelliJ, o arquivo "Main.java" deve rodar este modo, mas o modo completo é via Swing.
 
-# =================
-## Professor
-# =================
-O arquivo para os forms para a matéria de APS é o "MainForms.java", o arquivo "Main.java" executa no terminal.
+### Interface Gráfica
+Para abrir as janelas gráficar feitas em Swing, rode o "MainForms.java"
